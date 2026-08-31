@@ -1,5 +1,7 @@
 # Temporal context, not encoder capacity, drives automatic sleep staging
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22183137.svg)](https://doi.org/10.5281/zenodo.22183137)
+
 Code, fold definitions and per-fold results for the manuscript:
 
 > Temporal context, not encoder capacity, drives automatic sleep staging:
