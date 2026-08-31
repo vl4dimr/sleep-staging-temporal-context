@@ -7,8 +7,8 @@ Code, fold definitions and per-fold results for the manuscript:
 > Temporal context, not encoder capacity, drives automatic sleep staging:
 > a subject-disjoint evaluation of compact models on Sleep-EDF-78.
 
-Milton Vladimir Mamani Calisaya, Universidad Nacional del Altiplano, Puno,
-Peru. ORCID: 0000-0002-0676-0989.
+Milton Vladimir Mamani Calisaya (ORCID: 0000-0002-0676-0989) and Vladimiro
+Ibañez Quispe (ORCID: 0000-0002-0277-4945), Universidad Nacional del Altiplano, Puno, Peru.
 
 ## Headline results
 
