@@ -1,0 +1,72 @@
+{
+  "host": {
+    "cpu": "13th Gen Intel(R) Core(TM) i9-13980HX",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "torch": "2.12.0+cpu",
+    "cuda": false
+  },
+  "seq_len": 21,
+  "note": "Latencia medida en la CPU indicada, un solo hilo, batch=1. No se ha medido en hardware embebido ni en GPU.",
+  "configs": {
+    "base+BiGRU": {
+      "size_fp32_mb": 1.411,
+      "size_int8_mb": 0.562,
+      "window_ms_mean": 26.53491499950178,
+      "window_ms_std": 0.6393295511031353,
+      "per_epoch_ms": 1.2635673809286563,
+      "per_epoch_ms_p95": 1.3184935729008256,
+      "parameters": 362085,
+      "parameters_encoder": 279008
+    },
+    "base sin contexto": {
+      "size_fp32_mb": 1.125,
+      "size_int8_mb": 0.485,
+      "window_ms_mean": 26.713715004734695,
+      "window_ms_std": 1.5265532406299152,
+      "per_epoch_ms": 1.2720816668921284,
+      "per_epoch_ms_p95": 1.4175550011540985,
+      "parameters": 287589,
+      "parameters_encoder": 279008
+    },
+    "small+BiGRU": {
+      "size_fp32_mb": 0.902,
+      "size_int8_mb": 0.363,
+      "window_ms_mean": 23.89817999501247,
+      "window_ms_std": 2.1557592248305917,
+      "per_epoch_ms": 1.13800857119107,
+      "per_epoch_ms_p95": 1.2839288107075153,
+      "parameters": 228877,
+      "parameters_encoder": 158088
+    },
+    "tiny+BiGRU": {
+      "size_fp32_mb": 0.523,
+      "size_int8_mb": 0.215,
+      "window_ms_mean": 18.182874997728504,
+      "window_ms_std": 2.4966279771246964,
+      "per_epoch_ms": 0.865851190368024,
+      "per_epoch_ms_p95": 1.0044002387162656,
+      "parameters": 129781,
+      "parameters_encoder": 71280
+    },
+    "tiny+atencion": {
+      "size_fp32_mb": 0.386,
+      "size_int8_mb": 0.23,
+      "window_ms_mean": 18.317959998967126,
+      "window_ms_std": 4.638773635778203,
+      "per_epoch_ms": 0.872283809474625,
+      "per_epoch_ms_p95": 1.0946247629666086,
+      "parameters": 93877,
+      "parameters_encoder": 71280
+    },
+    "compacto (tiny+BiGRU sin atencion intra)": {
+      "size_fp32_mb": 0.313,
+      "size_int8_mb": 0.152,
+      "window_ms_mean": 8.816239994484931,
+      "window_ms_std": 2.538894516029461,
+      "per_epoch_ms": 0.41982095211833004,
+      "per_epoch_ms_p95": 0.6267347610056666,
+      "parameters": 76085,
+      "parameters_encoder": 17584
+    }
+  }
+}

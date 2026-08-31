@@ -1,0 +1,23 @@
+{
+  "n_epochs": 195479,
+  "n_recordings": 153,
+  "n_people": 78,
+  "dtype_X": "float16",
+  "sampling_rate": 100,
+  "epoch_seconds": 30,
+  "classes": [
+    "W",
+    "N1",
+    "N2",
+    "N3",
+    "REM"
+  ],
+  "class_counts": [
+    65951,
+    21522,
+    69132,
+    13039,
+    25835
+  ],
+  "protocol": "Sleep-EDF-78 cassette; canal Fpz-Cz; recorte al periodo de sueno +/-30 min; filtro 0.5-45 Hz; z-score por epoch; grabaciones contiguas en orden temporal; 'person' = caracteres 3-4 del id, de modo que las dos noches de un sujeto comparten persona"
+}
